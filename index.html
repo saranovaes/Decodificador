@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/imagens/seguranca.svg">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Space+Mono&display=swap"
+        rel="stylesheet"> 
+   </head>
+
+<body>
+     <header>
+        <div class="container__header">
+        <img class="container__header__logo" src="./assets/imagens/alura.svg" alt="logo alura">
+    </div>
+    </header>
+    <main>
+            <article class="container__main"> 
+
+                <section class="left" id="left"> 
+                     <textarea class="input__textarea" id="textInput"placeholder="Digite seu texto aqui" autofocus></textarea>
+                    <div class="conteudo__bottons">
+                        <span class="info">
+                        <img src="./assets/imagens/exclamacao.svg" alt="ponto de exclamação">
+                 Apenas letras minúsculas, sem acento e sem caracteres. </span>
+            
+                <div class="botton">
+                    <button id="botton__criptografar" class="botton__criptografar">Criptografar</button>
+                <button id="botton__descriptografar" class="botton__descriptografar">Descriptografar</button>
+                </div>
+                    </div>              
+            </section>
+
+            <section  class="conteudo__right" id="conteudo__right">
+                <img id="img__menino" class="img__menino" src="./assets/imagens/menino.svg" alt="menino olhando um diamante com a lupa">
+                <textarea id="textoNaoEncontrado" class="texto__nao__encontrado" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="texto__info" class="info">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button class="botton__copiar bn_ocultar" id="botton__copiar">Copiar</button>
+           </section>        
+</article>
+               
+    </main>
+             
+        <footer class="footer">
+            <p class="creador">Criado por Sara Novaes|2024 
+                <a href="" target="_blank" class="usuario">      
+                </a>
+            </p>
+            <div>
+                <a href="https://github.com/saranovaes" target="_blank">
+                    <img class="links" src="./assets/imagens/github.svg" />
+                </a>
+                       
+            </div>
+
+        </footer>
+    <script src="./js/script.js"></script>
+       
+  
+</body>
+</html>
