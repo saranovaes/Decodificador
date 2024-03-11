@@ -1,5 +1,5 @@
-<h1> 1º ChallengeOne:
-  Desenvolver uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
+<h1> 1º ChallengeOne:</h1>
+<p>  Desenvolver uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
 
 As "chaves" de criptografia que utilizaremos são:
 A letra "e" é convertida para "enter"
@@ -22,7 +22,7 @@ gaitober" => "gato"
 
 A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
 
-O resultado deve ser exibido na tela.</h1>
+O resultado deve ser exibido na tela.</p>
 
 <h2>🔖 Sobre</h2>
 <p>Projeto do curso Alura/Oracle.</p>
